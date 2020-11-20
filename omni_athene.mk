@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := lavender
+PRODUCT_RELEASE_NAME := athene
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -23,11 +23,11 @@ $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := lavender
-PRODUCT_NAME := omni_lavender
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Xiaomi Redmi Note 7
-PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_DEVICE := athene
+PRODUCT_NAME := omni_athene
+PRODUCT_BRAND := Motorola
+PRODUCT_MODEL := Motorola Moto G4 Plus
+PRODUCT_MANUFACTURER := Motorola
 
 # enable stock zip packages flash
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
